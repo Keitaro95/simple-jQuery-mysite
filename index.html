@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Design Works</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/design.css">
+</head>
+
+
+<body>
+    <h1>Digital Works</h1>
+    <h3>
+        SNS LINKS.
+        
+    </h3>
+    <div class="title">Science by Working</div>
+
+    <div class="slideshow">
+        <div><img src="images/photo1.jpeg" alt=""></div>
+        <div><img src="images/photo2.jpeg" alt=""></div>
+        <div><img src="images/photo3.jpeg" alt=""></div>
+        <div><img src="images/photo4.jpeg" alt=""></div>
+    </div>
+    <div class="presenter">presented by Keitaro</div>
+
+    <section class="design">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo totam quisquam, quia consectetur est eos tenetur, minima debitis id ullam cupiditate eligendi sunt ex dicta odit dolor accusamus, maiores quod!</p>
+        <p>Dignissimos quis totam placeat odit illum dolore reiciendis blanditiis praesentium nulla nisi perferendis fuga molestias at dolor quia numquam, culpa harum ullam fugiat excepturi dolores sint nobis, cupiditate atque? Iste!</p>
+        <p>Nihil voluptate praesentium, distinctio nostrum, similique voluptatem voluptatum quo quam, dolorem aspernatur vel commodi laboriosam eius dolores perspiciatis ducimus placeat delectus. Suscipit maxime amet deserunt cumque corrupti repellat in quis!</p>
+        <p>Possimus ut blanditiis amet ullam commodi ipsam non pariatur, praesentium aperiam ea inventore tempore, assumenda cumque expedita vero. Id rem nulla necessitatibus ab? Facere culpa aut rem delectus eius minus.</p>
+        <p>Est, accusamus sit facere perspiciatis ipsa quis temporibus amet, quo hic recusandae porro quam facilis natus placeat ipsam enim voluptates distinctio consectetur magnam doloribus vero. Ipsa ab voluptate facilis asperiores.</p>
+    </section>
+    
+    <p></p>
+    <table align="center">
+        <caption>スターティングラインナップ</caption>
+
+        <thead>
+            <tr>
+                <th colspan="2">選手名の見出し</th>
+                <th>背番号</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">FW</th>
+                <td>伊藤純也</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>南野拓実</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>三笘薫</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <th rowspan="3">MF</th>
+                <td>権田秀作</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>冨安健洋</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                
+                <td>遠藤航</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th rowspan="4">DF</th>
+                <td>守田英雅</td>
+                <td>6</td>
+            </tr>
+                <td>守田英雅</td>
+                <td>6</td>
+            <tr>
+                <td>守田英雅</td>
+                <td>6</td>
+            </tr>
+                <td>守田英雅</td>
+                <td>6</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">最強！</td>
+                <td>メンバー</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h3 id="contact">お問い合わせ</h3>
+    <p>サイトに関するお問い合わせはこちら</p>
+
+    <form action="/" method="POST">
+    <dl>
+        <label for="last_name">名字：</label>
+        <input type="text" name="last_name" id="last_name" value="">
+        <label for="first_name">下の名前：</label>
+        <input type="text" name="first_name" id="first_name">
+
+        <dt><label for="type">お問い合わせ内容</label></dt>
+        <dd>
+            <select name="type" id="type">
+                <option value="1">コーヒーについて</option>
+                <option value="2">その他</option>
+            </select>
+        </dd>
+
+        <dt><label for="content">お問い合わせ内容</label></dt>
+        <dd><textarea name="content" id="content" cols="30" rows="10"></textarea></dd>
+
+        <dt>
+            <dd><button type="submit">送信</button></dd>
+        </dt>
+    </dl> 
+    </form>
+
+
+    <p>名字：{{last_name}}</p>
+    <p>下の名前:{{first_name}}</p>
+
+
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <dt><label for="file">ファイルアップロード</label></dt>
+        <dd><input type="file" name="file" id="file" value="file"></dd>
+        <dd><button type="reset">リセット</button></dd>
+        <dd><button type="submit">アップロード</button></dd>
+    </form>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
